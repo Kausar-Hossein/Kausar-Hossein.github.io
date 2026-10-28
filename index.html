@@ -18,6 +18,27 @@
 .certificate-link{display:inline-block;font-size:11px;font-weight:600;margin-top:9px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(min-width:951px){nav{gap:18px}}
 
 .certificate-preview{display:block;max-width:440px;margin-top:18px;text-decoration:none;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:white;transition:box-shadow .2s}.certificate-preview:hover{box-shadow:0 8px 24px #10263e16}.certificate-preview img{display:block;width:100%;height:auto}.certificate-preview span{display:block;padding:9px 14px;border-top:1px solid var(--line);font-size:11px;font-weight:600;color:var(--blue)}@media print{.certificate-preview{display:none}}
+
+/* Refined profile: compact portrait and stronger typographic hierarchy. */
+:root{--muted:#465970;--blue:#245c96;--navy:#10263e}
+.hero{grid-template-columns:minmax(0,1.2fr) minmax(0,.9fr);gap:70px;padding:65px 0;align-items:center}
+.hero-copy{max-width:575px}.hero .location{font-size:11px;font-weight:500;color:#435b75;margin-bottom:21px;background:#f5f8fc}
+.hero .eyebrow{font-size:10px;letter-spacing:.15em;color:#245c96;line-height:1.8;max-width:460px}
+.hero h1{font-size:clamp(48px,5vw,66px);font-weight:700;line-height:1.08;letter-spacing:-.045em;margin:17px 0 17px}
+.hero h1 em{font-family:Manrope,Arial,sans-serif;font-style:normal;font-weight:700;color:#245c96}
+.hero .role-title{font-size:19px;font-weight:600;letter-spacing:0;margin-bottom:21px;color:#244f7c}
+.hero p.lead{font-size:17px;font-weight:500;line-height:1.8;color:#30465f;margin-bottom:15px;max-width:510px}
+.hero-copy>p:not(.lead):not(.role-title){font-size:15px;line-height:1.85;color:#465970;max-width:510px}
+.hero .buttons{margin-top:24px}.hero .button{font-size:12px;padding:12px 19px}.hero-links{font-size:11px;color:#405d7b;gap:20px;margin-top:23px}
+.conference-visual{max-width:400px;width:100%;justify-self:end;align-self:center;border-radius:8px;border:1px solid #d5e0eb;box-shadow:0 16px 40px #10263e12}
+.conference-visual .hero-photo{width:100%;height:435px;object-fit:cover;object-position:center top;display:block}
+.conference-visual .visual-caption{padding:17px 21px 18px}.conference-visual .visual-caption strong{font-size:14px;font-weight:600;line-height:1.5;display:block}.conference-visual .visual-caption p{font-size:10px;line-height:1.7;color:#d0deeb;margin:5px 0 0}
+.section-heading>p{font-size:13px;color:#465970}.date{color:#245c96}.card p,.row p{color:#465970}.skills p{color:#465970}.publication p{color:#465970}
+@media(min-width:1500px){.hero{padding:72px 0}}
+@media(min-width:701px) and (max-width:950px){.hero{gap:34px;grid-template-columns:minmax(0,1.15fr) minmax(0,.9fr)}.hero h1{font-size:49px}.hero p.lead{font-size:16px}.conference-visual .hero-photo{height:390px}.conference-visual .visual-caption strong{font-size:13px}}
+@media(max-width:700px){.hero{grid-template-columns:1fr;gap:30px;padding:38px 0 45px}.hero-copy{max-width:none}.hero h1{font-size:clamp(43px,11vw,59px)}.hero .eyebrow{font-size:9px}.hero .role-title{font-size:18px}.conference-visual{justify-self:start;max-width:400px}.conference-visual .hero-photo{height:auto;aspect-ratio:1/1.08;object-fit:cover;object-position:center top}.hero-links{flex-wrap:wrap;gap:12px 18px}}
+@media print{.hero{display:block;padding:10px 0}.hero h1{font-size:28pt}.hero .role-title{font-size:14pt}.hero p.lead{font-size:11pt}}
+
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <div class="site-header"><div class="wrap"><header><a class="brand" href="#about"><span class="monogram" aria-hidden="true">KH</span><span>KAUSAR HOSSEIN<small>Geospatial hydrology & climate research</small></span></a><nav aria-label="Main navigation"><a href="#research">Research</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#training">Training</a><a href="#contact">Contact ↗</a></nav></header></div></div><main id="main"><div class="wrap"><section id="about" class="hero"><div class="hero-copy"><span class="location">Dresden, Germany</span><div class="eyebrow">Water systems. Spatial science. Climate resilience.</div><h1>Md. Kausar<br><em>Hossein.</em></h1><p class="role-title">Geospatial Hydrologist</p><p class="lead">Understanding how water systems respond to a changing climate, from groundwater availability to coastal flood risk.</p><p>I use GIS, remote sensing, Python and hydrological modelling to support sustainable water management and climate adaptation.</p><div class="buttons"><a class="button primary" href="#research">Explore research ↘</a><a class="button" href="mailto:kausaresrm@gmail.com">Get in touch ↗</a></div><div class="hero-links"><a href="#publications">Publications ↗</a><a href="https://github.com/Kausar-Hossein">GitHub ↗</a><button class="print-button" onclick="window.print()" type="button">Print research profile ↓</button></div></div>
